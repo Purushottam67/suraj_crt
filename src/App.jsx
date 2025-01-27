@@ -12,7 +12,7 @@ function App() {
   };
 
   const openPDF = () => {
-    const fileName = "NPTEL24CS35S56255955.pdf";
+    const fileName = "NPTEL24HS176SS565000170.pdf";
     const fileURL = `/noc/Ecertificate/${fileName}`;
     const fullURL = `${window.location.origin}${fileURL}`;
     window.open(fullURL, "_blank"); // Opens the PDF in a new tab
